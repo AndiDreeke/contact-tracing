@@ -5,7 +5,7 @@ Implemented security features:
 - Asymmetric Encryption of payload content between client and server
 - Encryption using a secret for data storage on the server
 - Input sanitization on client side
-- Fail safe page for access to non existing urls
+- Fail safe page for access of non existing urls
 
 ## Setup Instructions
 
@@ -19,6 +19,7 @@ Node version >= 16.15.0
 `npm start` 
 
 Start the mock user database in new command line: \
+(optional) `npm i json-server` might not be neccessary
 `json-server --watch userDatabase.json --port 8081` \
 
 Start the mock express server in new command line: \
@@ -27,5 +28,5 @@ Start the mock express server in new command line: \
 `node app`
 
 ### Credentials to access
-Username: "test-user",\
+Username: "test-user"\
 Password: "secretpassword"
