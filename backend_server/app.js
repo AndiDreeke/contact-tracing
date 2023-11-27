@@ -17,7 +17,7 @@ let infectedLocationStore = []//JSON-Array
 let userStore = []//JSON-Array
 
 // function used once to initially generate random keypair
-/*async function generateEncrytpionKeys(){
+async function generateEncrytpionKeys(){
     await forge.pki.rsa.generateKeyPair({bits: 2048, workers: 2}, (err, keypair) => {
       pubPem = forge.pki.publicKeyToPem(keypair.publicKey)
       privPem = forge.pki.privateKeyToPem(keypair.privateKey)
@@ -30,7 +30,7 @@ let userStore = []//JSON-Array
       let decrypted_message = keypair.privateKey.decrypt(encrypted_message)
       console.log(decrypted_message)
     });
-}*/
+}
 
 function decipherSecretEncryption(encryptedText){
     return cryptojs.AES.decrypt(encryptedText, process.env.SECRET).toString(cryptojs.enc.Utf8)
