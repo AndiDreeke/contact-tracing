@@ -19,8 +19,8 @@ Node version >= 16.15.0
 `npm start` 
 
 Start the mock user database in new command line: \
-(optional) `npm i json-server` might not be neccessary
-`json-server --watch userDatabase.json --port 8081` \
+(optional) `npm i json-server` might not be neccessary \
+`json-server --watch userDatabase.json --port 8081` 
 
 Start the mock express server in new command line: \
 `cd backend_server`\
