@@ -26,6 +26,9 @@ Start the mock express server in new command line: \
 `npm install`\
 `node app`
 
+Navigate to \
+`http://localhost:3000/`
+
 # Usage Instructions
 
 ## Credentials to access
