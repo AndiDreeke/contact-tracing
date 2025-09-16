@@ -1,5 +1,6 @@
 # Introduction
 Contact Tracing Protype as playground to implement different Secure Software Engineering techniques
+
 Implemented security features:
 - User authentication through login restriction
 - Asymmetric Encryption of payload content between client and server
